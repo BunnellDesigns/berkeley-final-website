@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+
+}
+
+.navbar {
+	background-color: #FDB515;
+	}
+
+.jumbotron-custom {
+	background: #E6EAEA;
+	background-image: url(/assets/images/CampusSunset_1200_KeeganHouser.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 25px;
+	}	
+	
+.row {
+  padding: 15px;  /* Just an example padding */
+  background: lightgrey; /* Just an example color */
+}
