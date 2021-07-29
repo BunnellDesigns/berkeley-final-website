@@ -2,22 +2,39 @@
 /* CSS Document */
 
 h1 {
+color: #003262;
+}
 
+p {
+	line-height: 1.5;
 }
 
 .navbar {
 	background-color: #FDB515;
+	color: #003262;
 	}
 
 .jumbotron-custom {
 	background: #E6EAEA;
 	background-image: url(/assets/images/CampusSunset_1200_KeeganHouser.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	padding: 25px;
-	}	
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 50vh;
+		width: 100%;
+		overflow: hidden;
+		text-align: center;
+		margin: 0px 0px 10px 0px;
+}	
+
 	
 .row {
   padding: 15px;  /* Just an example padding */
   background: lightgrey; /* Just an example color */
+}
+
+.custom-image {
+	max-width: 320px;
+	max-height: auto;
 }
