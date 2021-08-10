@@ -1,40 +1,102 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Universal Body Styling */
+/* Berkeley Font Styling
+body {}
+font-family: ;
+}
+*/
 h1 {
 color: #003262;
 }
 
-p {
-	line-height: 1.5;
+h3 {
+ margin: 0px 0px 10px 0px;
+ color: #003262;
 }
 
-.navbar {
-	background-color: #FDB515;
-	color: #003262;
+p {
+	line-height: 1.5;
+	margin: 0px 0px 10px 0px;
+}
+
+.row {
+	padding: 0%;
+	margin: 0%;
+}
+
+.jumbotron-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ /* Navbar Style Overrides */
+ .bg-light {
+    background-color: #FDB515 !important;
+ }
+ nav .navbar-nav li a{
+	color: #003262 !important;
 	}
 
+.navbar-nav > li > a:hover {
+	color: whitesmoke !important;
+}
+a.dropdown-item.dropdown-item:hover{ 
+	color: whitesmoke !important;
+}
+
+ .navbar-light .navbar-brand {
+	background-color: #FDB515 !important;
+	color:#003262 !important;
+ }
+ .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link .dropdown-item {
+	color:#003262 !important;
+ }
+
+ .dropdown-menu .dropdown-item {
+	background-color: #FDB515 ;
+	color: #003262 ;
+	border: none;
+ }
+
+ .navbar-toggler{
+	 border: none;
+ }
+
+ .nav-link {
+	 text-align: center !important;
+ }
+
+ .dropdown-item {
+		text-align: center !important;
+	}
+
+ .dropdown-menu {
+	background-color: #FDB515;
+	border: none;
+ }
+
+ .navbar-nav > li > .dropdown-menu { 
+	 background-color: #FDB515; }
+
+/* Custom Classes */
 .jumbotron-custom {
-	background: #E6EAEA;
-	background-image: url(/assets/images/CampusSunset_1200_KeeganHouser.jpg);
+	background-image: url(./assets/images/CampusSunset_1200_KeeganHouser.jpeg);
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 		height: 50vh;
 		width: 100%;
-		overflow: hidden;
 		text-align: center;
 		margin: 0px 0px 10px 0px;
 }	
 
-	
-.row {
-  padding: 15px;  /* Just an example padding */
-  background: lightgrey; /* Just an example color */
-}
-
 .custom-image {
 	max-width: 320px;
-	max-height: auto;
+	max-height: 320px;
+	margin: 0px 0px 5px 0px;
 }
