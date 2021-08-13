@@ -84,7 +84,7 @@ a.dropdown-item.dropdown-item:hover{
 
 /* Custom Classes */
 .jumbotron-custom {
-	background-image: url(./assets/images/CampusSunset_1200_KeeganHouser.jpeg);
+	background-image: url('../images/CampusSunset_1200_KeeganHouser.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
